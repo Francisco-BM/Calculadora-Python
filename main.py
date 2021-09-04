@@ -63,7 +63,7 @@ Button(root,text="7",command=lambda:get_number(7)).grid(row=4, column=0,sticky=W
 Button(root,text="8",command=lambda:get_number(8)).grid(row=4, column=1,sticky=W+E)
 Button(root,text="9",command=lambda:get_number(9)).grid(row=4, column=2,sticky=W+E)
 
-#botones para operaciones
+#Botones para operaciones
 
 Button(root,text="ac",command=lambda:clear_display()).grid(row=5, column=0,sticky=W+E)
 Button(root,text="0",command=lambda:get_number(0)).grid(row=5, column=1,sticky=W+E)
